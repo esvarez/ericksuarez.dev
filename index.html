@@ -26,17 +26,43 @@
 </head>
 <body>
   <div class="container">
-    <div class="card">
-      <h1 class="title">Erick Suárez Zavala</h1>
-      <h2 class="subtitle">Computer Systems Engineer</h2>
-      <hr>
-      <div class="icons">
-        <i class="fab fa-linkedin"></i>
-        <i class="fab fa-github"></i>
-        <i class="fas fa-file"></i>
-        <i class="fas fa-globe"></i>
+    
+    <div class="card shadow" id="card">        
+      
+      <div class="card_face front">
+
+        <h1 class="title">Erick Suárez Zavala</h1>
+        <h2 class="subtitle">Computer Systems Engineer</h2>
+        <hr>
+        <div class="icons">
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-github"></i>
+          <i class="fas fa-file"></i>
+          <i class="fas fa-blog"></i>
+        </div>
+        <div class="action">
+          <a href="#" id="btnFlip">getInfo();</a>
+        </div>        
+      
       </div>
-    </div>    
+
+      <div class="card_face back">
+        <div class="contact" >
+          <span class="class">class</span> <span class="name">Me</span>( ) {<br>
+            <div class="padding">
+              <span class="var">name</span>  = <span class="string">"Erick Suárez Zavala"</span>;<br>
+              <span class="var">phone</span>  = <span class="string">"(+52) 443-349-1680"</span>;<br>
+              <span class="var">email</span>  = <span class="string">"ericksuarezdev@gmail.com"</span>;<br>             
+              <div class="action_class">
+                <a href="#" id="btnBack">back();</a>
+              </div>             
+            </div>
+          }      
+        </div>          
+      </div> 
+      
+    
   </div>
+  <script src="js/script.js"></script>
 </body>
 </html>
