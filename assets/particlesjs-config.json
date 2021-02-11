@@ -1,5 +1,4 @@
-
-particlesJS.load('particles-js',{
+{
   "particles": {
     "number": {
       "value": 160,
@@ -108,17 +107,4 @@ particlesJS.load('particles-js',{
     }
   },
   "retina_detect": true
-});
-/*
-const card =  document.getElementById('card'),
-  btnFlip = document.getElementById('btnFlip'),
-  btnBack = document.getElementById('btnBack')
-
-btnFlip.addEventListener('click', function(){
-  card.classList.toggle('is-flipped')
-})
-
-btnBack.addEventListener('click', function(){  
-  card.classList.toggle('is-flipped')
-})
-*/
+}
