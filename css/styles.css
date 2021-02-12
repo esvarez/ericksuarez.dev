@@ -2,7 +2,9 @@ body {
   color: #fafafa;  
   font: 100% "Noto Sans", sans-serif, Helvetica;
 }
-
+section {
+  height: 100vh;
+}
 #particles-js {
   height: 100vh;
   width: 100%;
@@ -24,6 +26,25 @@ body {
 .highlight {
   color: #569cd6;
 } 
+
+.btn-transparent {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: solid white 1px;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: white;
+  margin: 1em 0;
+  padding: .5em 1em;
+  font-size: 16pt;
+  transition: 0.5s;
+}
+
+.btn-transparent:hover {
+  background-color: white;
+  color: #569cd6;  
+}
 
 /*
 body {
