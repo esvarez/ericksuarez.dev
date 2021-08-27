@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
 body {
   color: #fafafa;  
   font: 100% "Noto Sans", sans-serif, Helvetica;
@@ -44,6 +49,24 @@ section {
 .btn-transparent:hover {
   background-color: white;
   color: #569cd6;  
+}
+
+.navbar {
+  
+  z-index: 5;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #1b1b1b;
+}
+/*
+.content {
+  max-width: 1250px;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.muenu-list li a {
+  color: #fff;
 }
 
 /*
